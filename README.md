@@ -57,23 +57,23 @@ Sequence Number | Character | Text
 ---|---|---
 1 | A | Heartbeat
 2 | B | Empty_Import_Export
-2 | B | Import_Export_Empty
-2 | B | 3439
-2 | B | Making_Change
-2 | B | Joining_Coins
-2 | B | Finding_Change
-2 | B | Moving_Coins_To_Sender
-2 | B | Detecting_Coin_authenticity
-2 | B | Fixing_Coins
-2 | B | Putting_Coins_in_Export
-2 | B | Encrypting Coins
-2 | B | Ready_To_Receive
-2 | B | Received
-2 | B | Decrypting_Coins
-2 | B | Powning_Coins
-2 | B | receipt
-2 | B | Confirming Change of Ownership
-<
+3 | B | Import_Export_Empty
+4 | B | 3439
+5 | B | Making_Change
+6 | B | Joining_Coins
+7 | B | Finding_Change
+8 | B | Moving_Coins_To_Sender
+9 | B | Detecting_Coin_authenticity
+10 | B | Fixing_Coins
+11 | B | Putting_Coins_in_Export
+12 | B | Encrypting Coins
+13 | B | Ready_To_Receive
+14 | B | Received
+15 | B | Decrypting_Coins
+16 | B | Powning_Coins
+17 | B | receipt
+18 | B | Confirming Change of Ownership
+
 
 
 
