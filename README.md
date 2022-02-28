@@ -43,9 +43,9 @@ Note: The sender and the receiver wil have hidden wallets called "Sender" and "R
 ```javascript
 
 {
-from:'192.168.1.54',
-
-
+"from": "192.168.1.54",
+"Message Number": 1,
+"Message_Details": "dfsdfs",
 }
 
 
@@ -53,26 +53,28 @@ from:'192.168.1.54',
 
 
 Protocol
-Sequence Number | Character | Text
+Message Number | Details | Message Name
 ---|---|---
-1 | A | Heartbeat
-2 | B | Empty_Import_Export
-3 | B | Import_Export_Empty
-4 | B | 3439
-5 | B | Making_Change
-6 | B | Joining_Coins
-7 | B | Finding_Change
-8 | B | Moving_Coins_To_Sender
-9 | B | Detecting_Coin_authenticity
-10 | B | Fixing_Coins
-11 | B | Putting_Coins_in_Export
-12 | B | Encrypting Coins
-13 | B | Ready_To_Receive
-14 | B | Received
-15 | B | Decrypting_Coins
-16 | B | Powning_Coins
-17 | B | receipt
-18 | B | Confirming Change of Ownership
+1 | None | Heartbeat
+2 | None | Empty_Import_Export
+3 | None | Import_Export_Empty
+4 | An Integer | Money to be Sent
+5 | None | Making_Change
+6 | None | Joining_Coins
+7 | None | Finding_Change
+8 | None | Moving_Coins_To_Sender
+9 | None | Detecting_Coin_authenticity
+10 | None | Fixing_Coins
+11 | None | Putting_Coins_in_Export
+12 | None | Encrypting Coins
+13 | None | Ready_To_Receive
+24 | Base64 Encrypted | Coins 
+14 | None | Received
+15 | None | Decrypting_Coins
+16 | None | Powning_Coins
+17 | The Receipt base 64 | receipt
+18 | None | Confirming Change of Ownership
+19 | None | Coins confirmed. 
 
 
 
