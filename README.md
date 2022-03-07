@@ -4,7 +4,7 @@ This protocol allows persons to send and receive coins synchronistically.
 
 ## Chat Server
 There is an chat server that allows two people to connect to it. Once connected, the clients will start broadcasting info about their state and then transfer coins. 
-All coins will be transfered in plain text. The Chat Sever must look at all text and change any # signs with the senders IP address.
+All coins will be transfered in encrypted bytes. But the commands will be clear . The Chat Sever must look at all text and change any # signs with the senders IP address.
 
 
 ## Protocol
